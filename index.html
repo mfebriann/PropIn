@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- My CSS -->
+		<link rel="stylesheet" href="asset/style/style.css" />
+		<link rel="stylesheet" href="asset/style/mediaQuery.css" />
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+		<title>Prop.In</title>
+	</head>
+
+	<body>
+		<div class="jumbotron">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#">Prop<span class="orange">.In</span></a>
+						<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon" style="color: red"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav ms-auto">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#property">Property</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#gallery">Gallery</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contact Us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link login" href="#">Login</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+				<section class="jumbotron-content d-flex align-items-center flex-column">
+					<h3>Dapatkan Property Impian Anda</h3>
+					<p>Kami menyediakan property impian dengan prospek terbaik</p>
+
+					<form class="dropdown-kategori d-flex align-items-center" id="dropdown-kategori">
+						<input type="text" placeholder="Cari propery disini" />
+						<button type="reset" class="btn">Cari</button>
+					</form>
+				</section>
+			</div>
+		</div>
+
+		<div class="container">
+			<section class="call-point d-flex align-items-center flex-column justify-content-center text-center" id="property">
+				<h4>Temukan Property Impian</h4>
+				<p>3 Langkah mudah mendapatkan property impian anda</p>
+				<div class="services d-flex align-items-center flex-wrap justify-content-center">
+					<div class="card-services">
+						<figure class="d-flex align-items-center flex-column">
+							<img src="asset/icons/map.svg" alt="Icons Map" />
+							<figcaption>
+								<h4>1. Cari Property</h4>
+								<p>Pilih property yang menarik untuk <span class="d-block"> anda beli</span></p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="card-services">
+						<figure class="d-flex align-items-center flex-column position-relative house">
+							<img src="asset/icons/construction.svg" alt="Icons Construction" />
+							<figcaption>
+								<h4>2. Cek Detailnya</h4>
+								<p>Cek properti yang anda inginkan <span class="d-block"> dan pastikan surat-suratnya lengkap</span></p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="card-services">
+						<figure class="d-flex align-items-center flex-column">
+							<img src="asset/icons/shake-hand.svg" alt="Icons Shake Hand" />
+							<figcaption>
+								<h4>3. Negosiasi</h4>
+								<p>Negosiasi property dengan pemilik <span class="d-block">untuk mendapat keuntungan bersama</span></p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<section class="tentang-kami position-relative">
+			<img src="asset/img/daun-kiri.png" alt="Images Leaf" class="position-absolute start-0 bottom-0" />
+			<img src="asset/img/daun-kanan.png" alt="Images Leaf" class="position-absolute end-0 top-0" />
+			<div class="container position-relative">
+				<div class="row">
+					<div class="col-lg">
+						<div class="text d-flex flex-column justify-content-center">
+							<h3 class="fw-bold">Tentang Kami</h3>
+							<p>
+								Kami menyediakan berbagai macam Property <span class="d-block">Bisnis yang tentunya kredible dan terpercaya.</span> Klien kami mulai dari Nasional hingga
+								<span class="d-block"> Mancanegara. </span>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg">
+						<div class="tentang-kami-content">
+							<figure><img src="asset/img/tentang-kami1.png" alt="Images Tentang kami 1" /></figure>
+							<figure><img src="asset/img/tentang-kami2.png" alt="Images Tentang kami 2" /></figure>
+							<figure><img src="asset/img/tentang-kami3.png" alt="Images Tentang kami 3" /></figure>
+							<figure><img src="asset/img/tentang-kami4.png" alt="Images Tentang kami 4" /></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="property" id="gallery">
+			<div class="container d-flex flex-column align-items-center">
+				<h3 class="fw-bold text-center">Property Kami</h3>
+				<p class="fw-light text-center">Kami menyediakan berbagai macam property menjanjikan</p>
+				<div class="wrap-image-property">
+					<div class="image-property futsal position-relative">
+						<div class="text-property d-flex flex-column justify-content-end">
+							<h4 class="position-relative">Lapangan Futsal</h4>
+							<p class="position-relative">+15 Property Tersedia</p>
+						</div>
+					</div>
+					<div class="image-property rusun position-relative">
+						<div class="text-property d-flex flex-column justify-content-end">
+							<h4 class="position-relative">Rusun</h4>
+							<p class="position-relative">+30 Property Tersedia</p>
+						</div>
+					</div>
+					<div class="image-property wisata position-relative">
+						<div class="text-property d-flex flex-column justify-content-end">
+							<h4 class="position-relative">Tempat Wisata</h4>
+							<p class="position-relative">+67 Property Tersedia</p>
+						</div>
+					</div>
+					<div class="image-property pertanian position-relative">
+						<div class="text-property d-flex flex-column justify-content-end">
+							<h4 class="position-relative">Lahan Pertanian</h4>
+							<p class="position-relative">+45 Property Tersedia</p>
+						</div>
+					</div>
+					<div class="image-property peternakan position-relative">
+						<div class="text-property d-flex flex-column justify-content-end">
+							<h4 class="position-relative">Lahan Peternakan</h4>
+							<p class="position-relative">+30 Property Tersedia</p>
+						</div>
+					</div>
+					<div class="image-property perikanan position-relative">
+						<div class="text-property d-flex flex-column justify-content-end">
+							<h4 class="position-relative">Lahan Perikanan</h4>
+							<p class="position-relative">+56 Property Tersedia</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials text-center">
+			<div class="container d-flex flex-column align-items-center">
+				<h3 class="fw-bold">Apa Kata Mereka</h3>
+				<p class="fw-light">Beberapa perusahaan yang menggunakan jasa kami</p>
+				<div class="card-testimonials d-flex gap-3 flex-wrap justify-content-center">
+					<div class="card d-flex flex-column align-items-center">
+						<figure>
+							<img src="asset/img/card-dean.png" alt="Images Dean" />
+							<figcaption>
+								<p class="fw-light ps-4 pe-4">“Sangat menyenangkan <span class="d-block">mencari Property di</span> Prop.in ini, saya akhirnya<span class="d-block">menemukan Property</span> yang Potensial”</p>
+							</figcaption>
+						</figure>
+						<div class="footer-card d-flex flex-column align-items-center">
+							<h3>Dean Ammerie</h3>
+							<p>Proximate Property</p>
+						</div>
+					</div>
+					<div class="card d-flex flex-column align-items-center">
+						<figure>
+							<img src="asset/img/card-jamie.png" alt="Images Jamie" />
+							<figcaption>
+								<p class="fw-light jamie ps-4 pe-4">“Saya sedang mencari Lahan <span class="d-block">Pertanian, dan akhirnya</span> menemukan yang sangat <span class="d-block">potensial di Prop.in”</span></p>
+							</figcaption>
+						</figure>
+						<div class="footer-card d-flex flex-column align-items-center">
+							<h3>Jamie Roger</h3>
+							<p>Property Box</p>
+						</div>
+					</div>
+					<div class="card d-flex flex-column align-items-center">
+						<figure>
+							<img src="asset/img/card-jane.png" alt="Images Jane" />
+							<figcaption>
+								<p class="fw-light jane ps-4 pe-4">“Prop.in adalah platform Property <span class="d-block">yang sangat potensial, saya </span>mendapatkan Lahan<span class="d-block"> Perikanan yang sangat bagus.”</span></p>
+							</figcaption>
+						</figure>
+						<div class="footer-card d-flex flex-column align-items-center">
+							<h3>Jane Lilliana</h3>
+							<p>Algerian Property</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="position-relative">
+			<img src="asset/img/daun-kiri-footer.png" alt="Images Leaf" class="position-absolute bottom-0 start-0 d-none" />
+			<img src="asset/img/daun-kanan-footer.png" alt="Images Leaf" class="position-absolute top-0 end-0" />
+			<div class="container d-flex justify-content-between align-items-center flex-wrap gap-lg-3">
+				<div class="text-left">
+					<h2 class="fw-bold">Prop<span class="orange">.In</span></h2>
+					<p>Kami adalah salah satu startup yang memiliki misi <span class="d-block"> untuk dapat memberikan informasi property </span>terbaik untuk anda yang ingin investasi.</p>
+				</div>
+				<div class="list-footer d-flex flex-wrap">
+					<ul>
+						<li class="first-list">Feature</li>
+						<li><a href="#">Reviews</a></li>
+						<li><a href="#">Community</a></li>
+						<li><a href="#">License</a></li>
+						<li><a href="#">Others</a></li>
+					</ul>
+					<ul>
+						<li class="first-list">Account</li>
+						<li><a href="#">Settings</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy & Policy</a></li>
+					</ul>
+					<ul>
+						<li class="first-list">Get Connected</li>
+						<li>Jalan Gajahmada 4, Semarang <span class="d-block">Jawa Tengah</span></li>
+						<li>089765456789</li>
+						<li>Prop.in@gmail.com</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="copyright container d-flex flex-column align-items-center mt-5 fw-bold">
+				<p>Design by <a href="https://www.instagram.com/ui.ux.by_aditya/" target="_blank" title="Instagram">Aditya</a></p>
+				<p>Development Web by <a href="https://github.com/mfebriann" target="_blank" title="Github">Rian</a></p>
+				<p>
+					&copy; 2021. Powered by <a href="https://icon-icons.com/icon/shake-hand/51913" target="_blank" title="Icon-Icons"> Nishanth kunder </a>,
+					<a href="https://icon-icons.com/icon/contruction-constructions-building-house-home/60325" target="_blank" title="Icon-Icons"> Sergei Kokota </a>,
+					<a href="https://icon-icons.com/id/icon/placeholder/124405" target="_blank" title="Icon-Icons"> Tracy Tam </a>
+				</p>
+			</div>
+		</footer>
+
+		<a href="#" id="scrollTop" class="d-flex justify-content-center align-items-center"> </a>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+		<script>
+			const scrollTop = document.querySelector('#scrollTop');
+			window.addEventListener('scroll', function () {
+				scrollTop.classList.toggle('scrollingTop', window.scrollY > 150);
+			});
+		</script>
+	</body>
+</html>
