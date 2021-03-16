@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+:is(#property, #gallery) {
+	scroll-margin-top: 4.5em;
+}
+
+.jumbotron {
+	background-image: url(../img/hero.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+
+.jumbotron::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(101, 158, 87, 0.8);
+	display: block;
+}
+
+.jumbotron .container {
+	position: relative;
+}
+
+.jumbotron .container nav {
+	padding: 15px 0;
+}
+
+.jumbotron .container nav .navbar-toggler.navbar-light {
+	border: 2px solid #ffbf00;
+}
+
+.jumbotron nav .navbar-toggler-icon {
+	background-image: url(../icons/menu.svg);
+}
+
+.jumbotron .container nav a {
+	color: #fff;
+}
+
+.jumbotron .container nav .navbar-brand {
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.jumbotron .container nav .navbar-brand .orange {
+	color: #ffbf00;
+	font-weight: 500;
+}
+
+.jumbotron .container nav .navbar-nav a {
+	font-size: 18px;
+	transition: color 300ms ease-out;
+}
+
+.jumbotron .container nav .navbar-nav a:not(.active):hover {
+	color: #ffbf00;
+}
+
+.jumbotron .container nav .navbar-nav .active {
+	color: #ffbf00;
+	font-weight: 500;
+	position: relative;
+}
+
+.jumbotron .container nav ul .active::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	background-color: #ffbf00;
+	width: 50%;
+	margin: 0 auto;
+	height: 4px;
+}
+
+.jumbotron .container nav .navbar-nav li {
+	margin-left: 35px;
+}
+
+.jumbotron .container nav .navbar-nav .login {
+	padding: 5px 20px;
+	border: 2px solid #ffbf00;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.jumbotron .container nav .navbar-light {
+	border: 2px solid #000;
+}
+
+.jumbotron .container .jumbotron-content {
+	color: #fff;
+	margin-top: 130px;
+}
+
+.jumbotron .container .jumbotron-content h3 {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.jumbotron .container .jumbotron-content p {
+	font-size: 22px;
+	margin: 25px 0 50px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.jumbotron .container .jumbotron-content .dropdown-kategori {
+	gap: 20px;
+	width: 68%;
+}
+
+.jumbotron .container .jumbotron-content .dropdown-kategori input {
+	width: 100%;
+	padding: 15px 20px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+.jumbotron .container .jumbotron-content .dropdown-kategori ::placeholder {
+	color: #c4c4c4;
+}
+
+.jumbotron .container .jumbotron-content .dropdown-kategori .btn {
+	border: none;
+	background-color: #ffbf00;
+	color: #fff;
+	padding: 10px 60px;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.call-point {
+	margin-top: 102px;
+}
+
+.call-point h4 {
+	font-weight: 700;
+	color: #538548;
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+
+.call-point p {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	margin-bottom: 120px;
+}
+
+.call-point .services {
+	gap: 20px;
+}
+
+.call-point .services .card-services .house::after {
+	content: '';
+	position: absolute;
+	left: 73%;
+	top: 45px;
+	width: 130%;
+	border: 2px dashed #90e57e;
+}
+
+.call-point .services .card-services .house::before {
+	content: '';
+	position: absolute;
+	right: 70%;
+	top: 45px;
+	width: 130%;
+	border: 2px dashed #90e57e;
+}
+
+.call-point .services .card-services img {
+	padding: 15px;
+	border: 2px solid #77b868;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+.call-point .services .card-services h4 {
+	font-weight: 700;
+	color: #538548;
+	font-size: 24px;
+}
+
+.call-point .services .card-services p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	margin-top: 10px;
+}
+
+.tentang-kami {
+	background-color: rgb(233, 250, 229);
+	padding: 60px 0;
+	margin-top: 100px;
+	overflow: hidden;
+}
+
+.tentang-kami .text {
+	height: 100%;
+}
+
+.tentang-kami .text h3 {
+	color: #538548;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.tentang-kami .text p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+}
+
+.tentang-kami .tentang-kami-content {
+	display: grid;
+	grid-template-columns: 275px 275px;
+	gap: 15px;
+}
+
+.tentang-kami .tentang-kami-content img {
+	margin: auto;
+}
+
+.property {
+	margin-top: 140px;
+}
+
+.property h3 {
+	color: #538548;
+	font-size: 32px;
+}
+
+.property p {
+	font-family: 'Nunito', sans-serif;
+	color: #555555;
+	font-size: 20px;
+}
+
+.property .wrap-image-property {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 30px;
+	gap: 20px;
+}
+
+.property .wrap-image-property .image-property {
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 200px;
+	color: #fff;
+}
+
+.property .wrap-image-property .futsal {
+	background-image: url(../img/futsal.png);
+}
+.property .wrap-image-property .rusun {
+	background-image: url(../img/rusun.png);
+}
+.property .wrap-image-property .wisata {
+	background-image: url(../img/wisata.png);
+}
+.property .wrap-image-property .pertanian {
+	background-image: url(../img/pertanian.png);
+}
+.property .wrap-image-property .peternakan {
+	background-image: url(../img/peternakan.png);
+}
+.property .wrap-image-property .perikanan {
+	background-image: url(../img/perikanan.png);
+}
+
+.property .wrap-image-property .image-property::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.property .wrap-image-property .image-property .text-property {
+	padding: 0 20px;
+	height: 100%;
+}
+
+.property .wrap-image-property .image-property .text-property h4 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.property .wrap-image-property .image-property .text-property p {
+	color: #fff;
+	font-size: 16px;
+}
+
+.testimonials {
+	margin-top: 180px;
+}
+
+.testimonials .container .fw-bold {
+	font-size: 32px;
+	color: #538548;
+}
+
+.testimonials .container .fw-light {
+	font-size: 20px;
+	color: #555555;
+	font-family: 'Nunito', sans-serif;
+	margin: 20px 0 60px;
+}
+
+.testimonials .container .card {
+	width: 350px;
+	padding: 90px 0 10px;
+	border-radius: 20px;
+}
+
+.testimonials .container .card:first-child {
+	box-shadow: 0 20px 40px 4px rgba(0, 0, 0, 0.15);
+}
+
+.testimonials .container .card .fw-light {
+	font-family: 'Nunito', sans-serif;
+	color: #000;
+	line-height: 35px;
+	margin: 50px 0;
+}
+
+.testimonials .container .card .jamie {
+	margin-bottom: 85px;
+}
+.testimonials .container .card .jane {
+	margin-bottom: 85px;
+}
+
+.testimonials .container .card .footer-card {
+	width: 100%;
+	border-top: 1px solid #c4c4c4;
+}
+
+.testimonials .container .card .footer-card h3 {
+	margin-top: 25px;
+	color: #538548;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.testimonials .container .card .footer-card p {
+	font-family: 'Nunito', sans-serif;
+	margin-top: 5px;
+}
+
+footer {
+	margin-top: 170px;
+	background-color: #93bb89;
+	padding: 120px 50px 20px;
+	color: #fff;
+	overflow: hidden;
+}
+
+footer .container .text-left .fw-bold {
+	font-size: 50px;
+}
+
+footer .container .text-left .fw-bold .orange {
+	color: #ffbf00;
+	font-weight: 500;
+}
+
+footer .container .text-left p {
+	margin-top: 30px;
+	font-family: 'Nunito', sans-serif;
+}
+
+footer .container .list-footer {
+	gap: 20px 50px;
+}
+
+footer .container .list-footer ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 60px;
+}
+
+footer .container .list-footer ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer .container .list-footer ul li a:hover {
+	color: #ffbf00;
+}
+
+footer .container .list-footer ul .first-list {
+	font-weight: 500;
+	font-size: 18px;
+}
+
+footer .container .list-footer ul li:not(.first-list) {
+	font-family: 'Nunito', sans-serif;
+}
+
+.scrollingTop {
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-color: #ffbf00;
+	border-radius: 50%;
+	transition: 300ms ease-in-out;
+	background-image: url(../icons/arrow-up.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.scrollingTop:hover {
+	background-color: #555;
+}

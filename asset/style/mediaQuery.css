@@ -1,0 +1,176 @@
+@media (min-width: 1339px) {
+	.call-point .services .card-services:nth-child(2) {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+
+	.call-point .services .card-services .house::after {
+		width: 95%;
+	}
+
+	.call-point .services .card-services .house::before {
+		width: 95%;
+	}
+}
+
+@media (max-width: 1339px) {
+	.call-point .services .card-services:nth-child(2) {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.call-point .services .card-services .house::after {
+		width: 80%;
+	}
+
+	.call-point .services .card-services .house::before {
+		width: 80%;
+	}
+}
+
+@media (max-width: 1200px) {
+	footer .container .list-footer ul {
+		padding: 0;
+	}
+}
+
+@media (max-width: 991px) {
+	.jumbotron .container nav ul .active::after {
+		display: none;
+	}
+
+	.jumbotron .container nav .navbar-nav li {
+		margin-left: 0;
+	}
+
+	.jumbotron .container .jumbotron-content h3 {
+		font-size: 45px;
+	}
+
+	.jumbotron .container .jumbotron-content .dropdown-kategori {
+		width: 100%;
+	}
+
+	.call-point .services .card-services .house::after {
+		display: none;
+	}
+	.tentang-kami .tentang-kami-content {
+		margin-top: 40px;
+	}
+	.property .wrap-image-property {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.tentang-kami {
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.jumbotron .container .jumbotron-content {
+		margin-top: 50px;
+	}
+	.jumbotron .container .jumbotron-content h3 {
+		font-size: 40px;
+	}
+	.call-point .services .card-services:nth-child(2) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.call-point .services .card-services .house::before {
+		display: none;
+	}
+	.call-point .services .card-services p {
+		margin-bottom: 0;
+	}
+	.property .wrap-image-property {
+		grid-template-columns: 1fr;
+	}
+	.property .wrap-image-property .image-property {
+		width: inherit;
+	}
+	.property .container {
+		align-items: inherit !important;
+	}
+	footer .container .list-footer ul {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 678px) {
+	.tentang-kami .tentang-kami-content {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+}
+
+@media (max-width: 576px) {
+	.jumbotron .container .jumbotron-content {
+		margin-top: 20px;
+	}
+
+	.jumbotron .container .jumbotron-content .dropdown-kategori {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+
+	.jumbotron .container .jumbotron-content .dropdown-kategori button {
+		padding: 5px 40px;
+	}
+	.call-point .services {
+		flex-direction: column;
+	}
+	.property {
+		margin-top: 80px;
+	}
+	.testimonials {
+		margin-top: 80px;
+	}
+	footer {
+		padding: 80px 0px 20px;
+	}
+	footer .copyright {
+		align-items: flex-start !important;
+	}
+}
+
+@media (max-width: 430px) {
+	.tentang-kami .container .text p .d-block {
+		display: inline !important;
+	}
+	footer .container .text-left p .d-block {
+		display: inline !important;
+	}
+}
+
+@media (max-width: 360px) {
+	.jumbotron {
+		padding-bottom: 40px;
+	}
+
+	.jumbotron .container .jumbotron-content p {
+		font-size: 22px;
+		margin: 25px 0;
+	}
+
+	.call-point p {
+		margin-bottom: 60px;
+	}
+
+	.jumbotron .container .jumbotron-content .dropdown-kategori .btn {
+		padding: 8px 40px;
+		font-size: 20px;
+	}
+	.testimonials .container .card {
+		width: 280px;
+	}
+	.testimonials .container .card .d-block {
+		display: inline !important;
+	}
+}
+
+@media (max-width: 300px) {
+	.tentang-kami .tentang-kami-content img {
+		width: 250px;
+	}
+}
