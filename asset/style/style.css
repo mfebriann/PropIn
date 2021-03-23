@@ -335,11 +335,7 @@ body {
 	transition: 300ms ease-in-out;
 }
 
-.testimonials .container .card:first-child {
-	box-shadow: 0 20px 40px 4px rgba(0, 0, 0, 0.15);
-}
-
-.testimonials .container .card:hover:not(:first-child) {
+.testimonials .container .card:hover {
 	box-shadow: 0 20px 40px 4px rgba(0, 0, 0, 0.15);
 }
 
